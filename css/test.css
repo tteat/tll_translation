@@ -1,0 +1,41 @@
+#tra_show,#tra_header,#tra_footer,#tra_box {
+	width: 300px;
+	font-family: '微软雅黑';
+	line-height: 1;
+	word-wrap:normal;
+}
+#tra_show { height:auto; position: fixed;background-color:#8dca6b ;box-shadow: 3px 5px 7px gray;}
+#tra_header { height:auto;background-color: #8dca6b;}
+#tra_footer { height:20px; background-color:#8dca6b;}
+#tra_box { height:auto; background-color: white;overflow: hidden;}
+#head_word {width: 300px;height: 30px;color: #fff;word-wrap:normal;}
+
+#head_last,#head_API {width: 300px;height: auto;color: #fff;font-size:x-small;padding: 0px 5px 2px 5px ;text-align:left;}
+#head_last{padding-top: 12px;height: 25px;padding-left: 7px;}
+#lastChoice {font-size:x-small;font-family: '微软雅黑';letter-spacing: 1px;line-height: 1;text-align: left;}
+#lastChoice:hover {background: grey;cursor:pointer;}
+#wordbook {width:100px;color: #fff;display: block;position: relative;float: right;font-size:x-small;padding: 13px 4px 0px 0px;text-decoration: underline;text-align: center;}
+#trans_word {width:100px;color: #fff;display: block;position: relative;float: left;font-size:large;padding: 8px 8px 0px 8px;}
+.xzw_starBox {position: relative;float: right;margin-left: 5px;}
+.tra_notice {font-size: xx-small;text-align: center;letter-spacing: 1px;margin: 2px;}
+.per_cus {position: relative;float: left;width: 300px;margin: 2px;}
+.perAPI {width:300px;height: 20px}
+#cus_content {width: 105px;height: 25px;padding: 2px 0px 0px 5px;margin: 3px 0px 0px 6px;display: none;position: relative;float: left;border: 1px solid black}
+.score {margin-left:6px; height:20px;width: 20px;line-height: 1; display: block;position: relative;float: left;font-size: xx-small;margin-right: 5px;padding-top: 3px;}
+.span_style {height:25px; width: 110px;line-height: 1; padding-left: 8px;display: block;position: relative;float: left;text-align:left;font-size:x-small;font-family: '微软雅黑';letter-spacing: 1px;}
+.span_style:hover {background: #8dca6b;cursor:pointer;}
+span.nominal {padding-left:4px; display: block;position: relative;float: left;font-size:x-small;}
+span.span_API:hover {background: grey;cursor:pointer;}
+span.span_API {height:16px; width: auto;line-height: 1; display: block;position: relative;float: left;font-size:x-small;font-family: '微软雅黑';letter-spacing: 1px;}
+#cus_trans,#change_trans {
+	position: relative;
+	float: right; 
+	margin: 4px 10px 2px 10px;
+	padding: 0px 1px;
+	font-size:xx-small;
+	color: #fff;
+	background:#8dca6b;
+	cursor: pointer;
+	height:25px;
+	text-align: center;
+}
